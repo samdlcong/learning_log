@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     # 应用程序
     'learning_logs',
     'users',
+    # 第三方应用程序
+    'bootstrap3',
 ]
 
 MIDDLEWARE = [
@@ -122,3 +124,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 LOGIN_URL = '/users/login'
+
+BOOTSTRAP3 = {
+    'include_jquery':True,
+}
